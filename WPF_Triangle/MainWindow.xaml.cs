@@ -67,7 +67,7 @@ namespace WPF_Triangle
 
                     listBox.Items.Clear();
                     if (listOfEdgesToTriangle.Count == 0)
-                        MessageBox.Show("Brak rozwiązań");
+                        MessageBox.Show("No solutions!");
                     else
                     {
                         List<Triangle> listOfEdgesToTriangleAfterResize = new List<Triangle>();
